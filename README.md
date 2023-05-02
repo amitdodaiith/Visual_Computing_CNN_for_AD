@@ -30,7 +30,7 @@ Select ALL- Select ALL tabular data
 5. Install python package clinica and dcm2niix
 6. Run this command to convert the downloaded data to BIDS format data
 
- clinica -v convert adni-to-bids 'ADNI_DATA_DIRECTORY' 'CLINICAL_DATA_DIRECTORY' 'BIDS_DIRECTORY' -m T1 --subjects_list subjects.txt
+#### clinica -v convert adni-to-bids 'ADNI_DATA_DIRECTORY' 'CLINICAL_DATA_DIRECTORY' 'BIDS_DIRECTORY' -m T1 --subjects_list subjects.txt
  
  subjects.txt to include list of subject ids
  
@@ -48,7 +48,7 @@ export SPM_HOME= HOME/TO/SPM
 
 For Train data : 
 
-clinica run t1-volume 'BIDS_DIRECTORY_TRAIN' 'BIDS_PROCESSED_TRAIN' 'TRAIN' -tsv './Train_ADNI.tsv' -wd './WD_train' -np 2
+#### clinica run t1-volume 'BIDS_DIRECTORY_TRAIN' 'BIDS_PROCESSED_TRAIN' 'TRAIN' -tsv './Train_ADNI.tsv' -wd './WD_train' -np 2
 
 
 TRAIN : is the group name lable. this is basically telling that use this as TRAIN set so that one of the internal step of dartel template creation will create the template using this data and save it as group-TRAIN_template.nii.gz under this path groups/group-TRAIN/t1/group-TRAIN_template.nii.gz
@@ -57,11 +57,11 @@ When you run this preprocesss step for validation and test data , keep the group
 
 For Val data : 
 
-clinica run t1-volume 'BIDS_DIRECTORY_VAL' 'BIDS_PROCESSED_VAL' 'TRAIN' -tsv './Val_ADNI.tsv' -wd './WD_val' -np 2
+#### clinica run t1-volume 'BIDS_DIRECTORY_VAL' 'BIDS_PROCESSED_VAL' 'TRAIN' -tsv './Val_ADNI.tsv' -wd './WD_val' -np 2
 
 For Test data : 
 
-clinica run t1-volume 'BIDS_DIRECTORY_TEST' 'BIDS_PROCESSED_TEST' 'TRAIN' -tsv './Test_ADNI.tsv' -wd './WD_test' -np 2
+#### clinica run t1-volume 'BIDS_DIRECTORY_TEST' 'BIDS_PROCESSED_TEST' 'TRAIN' -tsv './Test_ADNI.tsv' -wd './WD_test' -np 2
 
 here : first argument is the path to BIDS format image data
      : second argument is the destination path where the program will write the processed files
