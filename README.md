@@ -3,9 +3,13 @@
 Follow this to download and process the data before it can be used for model training
 
 1. Raise a request for login to ADNI anc lcik on image collection
+https://ida.loni.usc.edu/home/projectPage.jsp?project=ADNI
+
 ![image](https://user-images.githubusercontent.com/132141855/235603102-3ff52611-3b24-4f2c-bf15-5ca29184466a.png)
 
 2. Use the filters as shown below to download the data
+![image](https://user-images.githubusercontent.com/132141855/235603378-e25b4071-a6b1-434a-8ccb-fb7928e1ff92.png)
+
 4. Also download clinical dataset.
 5. Install python package clinica and dcm2niix
 6. Run this command to convert the downloaded data to BIDS format data
