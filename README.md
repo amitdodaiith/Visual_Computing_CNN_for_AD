@@ -10,6 +10,12 @@ https://ida.loni.usc.edu/home/projectPage.jsp?project=ADNI
 2. Use the filters as shown below to download the data
 ![image](https://user-images.githubusercontent.com/132141855/235603378-e25b4071-a6b1-434a-8ccb-fb7928e1ff92.png)
 
+3. Download using advance option
+![image](https://user-images.githubusercontent.com/132141855/235603972-8c26e410-5fb2-4dd0-b44d-d35a5f291b01.png)
+
+![image](https://user-images.githubusercontent.com/132141855/235604047-cacd8ff6-4189-4030-a9a8-e0e71dc2f568.png)
+
+
 4. Also download clinical dataset.
 5. Install python package clinica and dcm2niix
 6. Run this command to convert the downloaded data to BIDS format data
