@@ -18,5 +18,4 @@ Steps for Model training
 1. Follow the notebook https://github.com/amitdodaiith/Visual_Computing_CNN_for_AD/blob/master/Model_Training.ipynb
 
 Steps for Model results
-1. follow the #notebook 
-2. [Go to Real Cool Heading section] https://github.com/amitdodaiith/Visual_Computing_CNN_for_AD/blob/master/Model_Results.ipynb
+1. follow the notebook https://github.com/amitdodaiith/Visual_Computing_CNN_for_AD/blob/master/Model_Results.ipynb
