@@ -1,4 +1,4 @@
-# Visual_Computing_CNN_for_AD , CS22MDS15012
+# Visual_Computing_CNN_for_AD  CS22MDS15012
 
 ### 1. Follow this to download and process the data before it can be used for model training
 
