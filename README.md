@@ -51,7 +51,7 @@ For Train data :
 #### clinica run t1-volume 'BIDS_DIRECTORY_TRAIN' 'BIDS_PROCESSED_TRAIN' 'TRAIN' -tsv './Train_ADNI.tsv' -wd './WD_train' -np 2
 
 
-TRAIN : is the group name lable. this is basically telling that use this as TRAIN set so that one of the internal step of dartel template creation will create the template using this data and save it as group-TRAIN_template.nii.gz under this path groups/group-TRAIN/t1/group-TRAIN_template.nii.gz
+TRAIN : is the group name lable. this is basically telling that use this as TRAIN set so that one of the internal step of dartel template creation will create the template using this data and save it as  groups/group-TRAIN/t1/group-TRAIN_template.nii.gz
 
 When you run this preprocesss step for validation and test data , keep the group label as TRAIN so that the method refers to already created template to normalize the images.
 
