@@ -15,7 +15,7 @@ Follow this to download and process the data before it can be used for model tra
 11, Your data is now ready for trainng.
 
 Steps for Model training
-1. Follow the notebook https://github.com/amitdodaiith/Visual_Computing_CNN_for_AD/blob/master/Model_Training.ipynb
+1. Follow the notebook #https://github.com/amitdodaiith/Visual_Computing_CNN_for_AD/blob/master/Model_Training.ipynb
 
 Steps for Model results
-1. follow the notebook 
+1. follow the notebook #https://github.com/amitdodaiith/Visual_Computing_CNN_for_AD/blob/master/Model_Results.ipynb
